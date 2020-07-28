@@ -1,0 +1,79 @@
+.home-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../resources/img/project_images/looplab/home.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+}
+
+.explore-section{
+    background-color: #464646;
+    height: 220px;
+}
+
+.explore-section h1{
+    font-size: 2.5rem;
+}
+
+.explore-connect i{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.create-passion, footer{
+    background-color: #464646;
+}
+
+.mform{
+    background-color: rgba(180, 180, 180, 0.99);
+}
+
+.card-form{
+    opacity: .8;
+}
+
+i{
+    background-color: white;
+    color: blue;
+}
+
+@media screen and (max-width: 991px) {
+    .explore-section{
+        height: 240px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .explore-section{
+        height: 270px;
+    }
+}    
+@media screen and (max-width: 551px) {
+    .explore-section{
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 451px) {
+    .explore-section{
+        height: 300px;
+    }
+}    
+@media screen and (max-width: 400px) {
+    .explore-section{
+        height: 320px;
+    }
+}
+@media screen and (max-width: 331px) {
+    .explore-section{
+        height: 340px;
+    }
+} 
+@media screen and (max-width: 302px) {
+    .explore-section{
+        height: 370px;
+    }
+}    
